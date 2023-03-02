@@ -61,3 +61,63 @@
     letter-spacing: .5px;
 }
 /* foodNetworkSection end */
+
+
+/* aboutMeSection start */
+.aboutMeSection {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 20px;
+    background-color: rgba(165, 212, 238, 0.443);
+    padding: 79.5px 0px;
+}
+
+.aboutMeImg {
+    position: relative;
+    transition: all .5s ease;
+}
+.aboutMeImg img {
+    content: "";
+    position: absolute;
+    top: -263px;
+    left: -190px;
+}
+
+.aboutMeImg:hover {
+    transform: translate(10px);
+}
+
+
+
+.aboutMeDescription {
+
+}
+.aboutMeDescription h2 {
+    font-size: 44px;
+    transition: all .5s ease;
+}
+.aboutMeDescription:hover h2 {
+    letter-spacing: 2px;
+}
+
+.aboutMeDescription p {
+    margin: 50px 0;
+    width: 70%;
+    text-align: justify;
+    color: #828282;
+}
+.aboutMeDescription {}
+/* aboutMeSection end */
+
+
+
+
+
+
+
+
+
+
+
