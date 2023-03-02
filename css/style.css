@@ -63,15 +63,15 @@
 /* foodNetworkSection end */
 
 
-/* aboutMeSection start */
 .aboutMeSection {
     margin: 50px 0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     gap: 20px;
-    background-color: rgba(165, 212, 238, 0.443);
     padding: 79.5px 0px;
+    background-image: url("../images/shapes/Frame\ 57.jpg");
+    background-repeat: no-repeat;
 }
 
 .aboutMeImg {
@@ -202,6 +202,30 @@
 }
 /* socialFollowerSection end */
 
+
+
+/* footer section start */
+footer {
+    background-color: rgba(165, 212, 238, 0.443);
+    text-align: center;
+    margin: 100px 0 0 0;
+    padding: 100px;
+}
+footer h3 {
+    font-size: 34px;
+    margin-bottom: 30px;
+    transition: all .5s ease;
+}
+footer:hover h3 {
+    letter-spacing: 2px;
+}
+footer h3>span {
+    color: #068FF7;
+}
+footer p {
+    color: #828282;
+}
+/* footer section end */
 
 
 
