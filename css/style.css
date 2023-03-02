@@ -1,0 +1,63 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+
+
+/* foodNetworkSection start */
+
+.foodNetworkSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+.footNetworkTitle{
+    font-size: 60px;
+}
+.footNetworkTitle h1>span {
+    color: #068FF7;
+    text-decoration: underline;
+    transition: all .5s ease;
+}
+
+
+.foodNetworkDescription p {
+    color: #828282;
+    margin: 30px 0;
+}
+.foodNetworkImg {
+    overflow: hidden;
+}
+.foodNetworkImg img {
+    width: 80%;
+    transition: all .5s ease;
+
+}
+.foodNetworkImg img:hover {
+    transform: scale(.99);
+}
+
+.commonButton {
+    text-decoration: none;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(6, 143, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all .5s ease;
+}
+.commonButton:hover {
+    background-color: #14B6FE;
+    transform: scale(1.01);
+    letter-spacing: .5px;
+}
+/* foodNetworkSection end */
